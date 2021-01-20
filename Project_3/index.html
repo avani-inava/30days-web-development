@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio Page</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+	
+  <div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 align="center">Welcome</h1>
+  <p align="center">This page contains my Reading List for 2021.</p>
+  </div>
+	<br><hr>
+	<!-- CARSOUSEL-->
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="book1.jpg" alt="BookImage" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="book2.jpg" alt="Chicago" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="book3.jpg" alt="New York" width="100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<!-- TABLES-->
+	<div class="box">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col"><table align="center" border=1  class="table table-hover">
+	<h3 align="center">2021 January Reading List</h3>
+	<tr class="head"><td> </td><td>Book Name</td><td>Author</td><td>Link</td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The One Thing</td><td>Gary keller</td><td><a href="https://www.amazon.in/One-Thing-Gary-Keller/dp/1848549601/ref=sr_1_1?crid=X90C5NCYM3O9&dchild=1&keywords=the+one+thing&qid=1609750485&sprefix=The+one+%2Caps%2C318&sr=8-1">Click here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Guest list</td><td>Lucy Foley</td><td><a href="https://www.amazon.in/Guest-List-Lucy-Foley/dp/0008403775/ref=sr_1_1?crid=17DKCCN9YG3IU&dchild=1&keywords=the+guest+list&qid=1609750561&sprefix=the+guest+%2Caps%2C301&sr=8-1">Click Here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Reincarnationist papers</td><td>D Eric Maikranz</td><td><a href="https://www.amazon.in/Reincarnationist-Papers-D-Eric-Maikranz-ebook/dp/B002L3S0ZQ/ref=sr_1_2?crid=2VDNPNHMFS0KL&dchild=1&keywords=the+reincarnationist+papers&qid=1609750638&sprefix=the+rei%2Caps%2C299&sr=8-2">Click Here</a></td></tr>
+</table> <!--<div class="progress">
+     <div class="progress-bar" style="width:70%"></div> 
+  </div>--></div>
+    <div class="col"><table align="center" border=1  class="table table-hover">
+	<h3 align="center">2021 January Reading List</h3>
+	<tr class="head"><td> </td><td>Book Name</td><td>Author</td><td>Link</td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The One Thing</td><td>Gary keller</td><td><a href="https://www.amazon.in/One-Thing-Gary-Keller/dp/1848549601/ref=sr_1_1?crid=X90C5NCYM3O9&dchild=1&keywords=the+one+thing&qid=1609750485&sprefix=The+one+%2Caps%2C318&sr=8-1">Click here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Guest list</td><td>Lucy Foley</td><td><a href="https://www.amazon.in/Guest-List-Lucy-Foley/dp/0008403775/ref=sr_1_1?crid=17DKCCN9YG3IU&dchild=1&keywords=the+guest+list&qid=1609750561&sprefix=the+guest+%2Caps%2C301&sr=8-1">Click Here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Reincarnationist papers</td><td>D Eric Maikranz</td><td><a href="https://www.amazon.in/Reincarnationist-Papers-D-Eric-Maikranz-ebook/dp/B002L3S0ZQ/ref=sr_1_2?crid=2VDNPNHMFS0KL&dchild=1&keywords=the+reincarnationist+papers&qid=1609750638&sprefix=the+rei%2Caps%2C299&sr=8-2">Click Here</a></td></tr>
+</table></div>
+    <div class="col"><table align="center" border=1  class="table table-hover">
+	<h3 align="center">2021 January Reading List</h3>
+	<tr class="head"><td> </td><td>Book Name</td><td>Author</td><td>Link</td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The One Thing</td><td>Gary keller</td><td><a href="https://www.amazon.in/One-Thing-Gary-Keller/dp/1848549601/ref=sr_1_1?crid=X90C5NCYM3O9&dchild=1&keywords=the+one+thing&qid=1609750485&sprefix=The+one+%2Caps%2C318&sr=8-1">Click here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Guest list</td><td>Lucy Foley</td><td><a href="https://www.amazon.in/Guest-List-Lucy-Foley/dp/0008403775/ref=sr_1_1?crid=17DKCCN9YG3IU&dchild=1&keywords=the+guest+list&qid=1609750561&sprefix=the+guest+%2Caps%2C301&sr=8-1">Click Here</a></td></tr>
+	<tr><td><input type="checkbox" name="one"></td><td>The Reincarnationist papers</td><td>D Eric Maikranz</td><td><a href="https://www.amazon.in/Reincarnationist-Papers-D-Eric-Maikranz-ebook/dp/B002L3S0ZQ/ref=sr_1_2?crid=2VDNPNHMFS0KL&dchild=1&keywords=the+reincarnationist+papers&qid=1609750638&sprefix=the+rei%2Caps%2C299&sr=8-2">Click Here</a></td></tr>
+</table></div>
+  </div>
+</div>
+<br><hr>
+<!-- FORM ----- -->	
+<div class="form">
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Click here"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="mail" name="email"><br>
+  <!-- BUTTON ----- -->	
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>	
+</form>
+</div>
+</div>
+</body>
+<hr><br>
+<div class="request-form">
+	<p align="center">You can request one book of your choice from the above list. Fill this out and an eBook of the requested book will be sent to you as soon as your request gets processed.</p>
+	<p align="center"><b>Under Construction</b></p>
+
+
+</div>
+<!-- <footer>
+	<div class="foot"><p align="center" color="white">I made a web page.
+Rue(^-^)</p></div>
+
+</footer> -->
+<div class="jumbotron text-center" style="margin-bottom:0; background-image: url(foot_img.png); background-size: 100%;">
+   <div class="container for-about">
+	<p align="center" color="white">I made a web page.
+Rue(^-^)</p></div>
+</html>
